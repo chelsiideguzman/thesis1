@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Alegreya';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/Alegreya-Regular.woff') format('woff'), url('fonts/Alegreya-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/SourceSansPro-Regular.woff') format('woff'), url('fonts/SourceSansPro-Regular.woff2') format('woff2');
+}
+
+* {
+    font-family: 'SourceSansPro', serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    height: auto !important;
+    min-height: 100%;
+    margin-bottom: -40px;
+
+    background-color: #fff;
+}
+
+#wrap:after {
+    display: block;
+
+    content: "";
+}
+
+#wrap:after, #footer {
+    height: 40px;
+}
+
+#footer {
+    padding: 0.2%;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #1F2421;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+* {
+    font-family: 'SourceSansPro', serif;
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand {
+    width: 150px;
+    /*    overflow: hidden;*/
+
+    background-color: #fff;
+}
+
+.navbar-brand:hover {
+    background-color: #fff;
+}
+
+.navbar-brand img {
+    width: 130px;
+    margin-top: -20px;
+}
+
+
+/**/
+
+
+/* Side Nav */
+
+.navbtn {
+    width: 200px;
+
+    text-align: left;
+}
+
+.navbtn2 {
+    width: 200px;
+
+    text-align: left;
+}
+
+.navbtnicon {
+    float: right;
+}
+
+
+/**/
+
+
+/* Material Design */
+
+.navbar.navbar-inverse {
+    /*    background-color: #1F2421;*/
+}
+
+
+/**/
+
+
+/*Content*/
+
+.right {
+    float: right;
+}
+
+.p2030 {
+    padding: 20px 30px;
+}
+
+.p20 {
+    padding: 0px 20px;
+}
+
+.p40 {
+    padding: 0px 40px;
+}
+
+.p4040 {
+    padding: 40px 40px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.titleh {
+    text-align: center;
+}
+
+.labeltext {
+    color: #1F2421;
+}
+
+.employeeimg {
+    text-align: center;
+
+    font-size: 70px;
+}
+
+.employeeicon {
+    font-size: 20px;
+}
+
+.payrolltable {
+    overflow-x: scroll;
+
+    width: 100%;
+}
+
+.payrollicon {
+    font-size: 25px;
+}
+
+.confirmation {
+    height: 350px;
+    vertical-align: middle;
+}
+
+.confirmationtext {
+    font-size: 60px;
+    font-family: 'Alegreya';
+    font-weight: 500;
+}
+
+.servicecrewimg {
+  height: 450px;
+  background-image: url("../img/food.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+
+/**/
+
+
+/* Index */
+
+.featuresimage {
+    height: 100vh;
+    min-height: 100%;
+
+    background-image: url("../img/bk.jpg");
+    background-position: top center;
+    background-size: cover;
+}
+
+.featuresgray {
+    background-color: #DCE1DE;
+}
+
+.p200top {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.p15020 {
+    padding: 20px 150px;
+}
+.intro {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Alegreya';
+    line-height: normal;
+}
+
+.medimg {
+  height: 100px;
+margin: 0 auto;
+}
+.bigimg {
+  height: 130px;
+margin: 0 auto;
+}
+
+.restaurantimg {
+  height: 300px;
+  background-image: url("../img/food.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+.break {
+    margin-bottom: 30px;
+}
+/**/
