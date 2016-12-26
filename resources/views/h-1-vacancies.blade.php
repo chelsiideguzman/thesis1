@@ -34,10 +34,10 @@
                                 <button class="btn btn-primary btn-raised dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Advanced Search &nbsp; <span class="caret"></span></button>
                                 <ul class="dropdown-menu col-md-12 col-sm-12" aria-labelledby="dropdownMenu1">
                                     <li>
-                                        <form class="" action="index.html" method="post">
+                                        <form class="" action="" method="post">
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-1-vacancies-search-jobtitle">Job Title</label>
+                                                <div class="form-group  label-floating">
+                                                    <label for="h-1-vacancies-search-jobtitle" class="control-label">Job Title</label>
                                                     <select id="h-1-vacancies-search-jobtitle" class="form-control" name="h-1-vacancies-search-jobtitle">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -46,8 +46,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-1-vacancies-search-department">Department</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-1-vacancies-search-department" class="control-label">Department</label>
                                                     <select id="h-1-vacancies-search-department" class="form-control" name="h-1-vacancies-search-department">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -56,8 +56,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-1-vacancies-search-branchname">Branch Name</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-1-vacancies-search-branchname" class="control-label">Branch Name</label>
                                                     <select id="h-1-vacancies-search-branchname" class="form-control" name="h-1-vacancies-search-branchname">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -66,8 +66,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-1-vacancies-search-status">Status</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-1-vacancies-search-status" class="control-label">Status</label>
                                                     <select id="h-1-vacancies-search-status" class="form-control" name="h-1-vacancies-search-status">
                                                         <option>Active</option>
                                                         <option>Inactive</option>

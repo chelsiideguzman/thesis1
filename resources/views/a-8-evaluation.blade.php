@@ -45,8 +45,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="a-8-evaluation-search-jobtitle">Job Title</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="a-8-evaluation-search-jobtitle" class="control-label">Job Title</label>
                                                     <select id="a-8-evaluation-search-jobtitle" class="form-control" name="a-8-evaluation-search-jobtitle">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -55,8 +55,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="a-8-evaluation-search-department">Department</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="a-8-evaluation-search-department" class="control-label">Department</label>
                                                     <select id="a-8-evaluation-search-department" class="form-control" name="a-8-evaluation-search-department">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -65,8 +65,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="a-8-evaluation-search-branchname">Branch Name</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="a-8-evaluation-search-branchname" class="control-label">Branch Name</label>
                                                     <select id="a-8-evaluation-search-branchname" class="form-control" name="a-8-evaluation-search-branchname">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -75,8 +75,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="a-8-evaluation-search-pending">Status</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="a-8-evaluation-search-pending" class="control-label">Status</label>
                                                     <select id="a-8-evaluation-search-pending" class="form-control" name="a-8-evaluation-search-pending">
                                                         <option>Evaluated</option>
                                                         <option>Pending Evaluation</option>
@@ -104,8 +104,8 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="text-warning">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="a-8-evaluation-viewevaluation.php"><i class="fa fa-external-link"></i></a> &nbsp;
-                                                <a href="a-8-evaluation-evaluate.php"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-viewevaluation"><i class="fa fa-external-link"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-evaluate"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -118,8 +118,8 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="a-8-evaluation-viewevaluation.php"><i class="fa fa-external-link"></i></a> &nbsp;
-                                                <a href="a-8-evaluation-evaluate.php"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-viewevaluation"><i class="fa fa-external-link"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-evaluate"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -136,8 +136,8 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="text-warning">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="a-8-evaluation-viewevaluation.php"><i class="fa fa-external-link"></i></a> &nbsp;
-                                                <a href="a-8-evaluation-evaluate.php"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-viewevaluation"><i class="fa fa-external-link"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-evaluate"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -150,8 +150,8 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="a-8-evaluation-viewevaluation.php"><i class="fa fa-external-link "></i></a> &nbsp;
-                                                <a href="a-8-evaluation-evaluate.php"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-viewevaluation"><i class="fa fa-external-link "></i></a> &nbsp;
+                                                <a href="/admin-evaluation-evaluate"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -168,8 +168,8 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="text-warning">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="a-8-evaluation-viewevaluation.php"><i class="fa fa-external-link "></i></a> &nbsp;
-                                                <a href="a-8-evaluation-evaluate.php"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-viewevaluation"><i class="fa fa-external-link "></i></a> &nbsp;
+                                                <a href="/admin-evaluation-evaluate"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>
@@ -182,8 +182,8 @@
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="">2016000001</span></h4>
                                             <p class="pull-right p10">
-                                                <a href="a-8-evaluation-viewevaluation.php"><i class="fa fa-external-link"></i></a> &nbsp;
-                                                <a href="a-8-evaluation-evaluate.php"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-viewevaluation"><i class="fa fa-external-link"></i></a> &nbsp;
+                                                <a href="/admin-evaluation-evaluate"><i class="fa fa-bar-chart-o"></i></a> &nbsp;
                                             </p><br /><br />
                                             <p class="list-group-item-text" style="">Chua, Olivia <br /> Department - Job title</p>
                                         </div>

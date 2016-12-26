@@ -17,6 +17,7 @@
 * {
     font-family: 'SourceSansPro', serif;
 }
+/*Main*/
 
 html, body {
     height: 100%;
@@ -56,6 +57,7 @@ a {
 a:hover {
     text-decoration: none;
 }
+/**/
 
 /* Navigation Bar */
 
@@ -107,7 +109,13 @@ a:hover {
 /**/
 
 
-/*Content*/
+/*Layout*/
+.center {
+    display: block;
+
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .right {
     float: right;
@@ -133,46 +141,121 @@ a:hover {
     padding: 10px;
 }
 
+.p100 {
+    padding: 100px 100px;
+}
+
+.p15020 {
+    padding: 20px 150px;
+}
+
+/**/
+
+/*Text*/
 .titleh {
     text-align: center;
 }
-
+/*Modal*/
 .labeltext {
     color: #1F2421;
 }
+/*Timeattendance*/
+.confirmation {
+    display: flex;
+      overflow: auto;
+      flex-direction: column;
 
+    height: 350px;
+
+      justify-content: center;
+  }
+
+.confirmationtext {
+    font-family: 'Alegreya';
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.intro {
+    color: #fff;
+}
+/*Index*/
+.intro h1 {
+    letter-spacing: 3px;
+
+    font-size: 60px;
+    font-weight: 800;
+    line-height: normal;
+}
+.intro p {
+    letter-spacing: 1px;
+
+    font-size: 20px;
+    line-height: normal;
+}
+.introsub h1 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/**/
+
+/*Image*/
+/*Employee List*/
 .employeeimg {
     text-align: center;
 
     font-size: 70px;
 }
+/*Recruitment - Service Crew*/
+.servicecrewimg {
+  height: 450px;
 
+  background-image: url("../img/food.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+
+/*Index*/
+.smallimg {
+  height: 50px;
+}
+
+.medimg {
+  height: 100px;
+}
+.bigimg {
+  height: 130px;
+margin: 0 auto;
+}
+
+.restaurantimg {
+  height: 300px;
+
+  background-image: url("../img/food.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+
+.restaurantimgcard {
+  height: 180px;
+
+  background-image: url("../img/food.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+
+/**/
+
+/*Table*/
+/*Payroll Table*/
 .overflowxtable {
     overflow-x: scroll;
 
     width: 100%;
 }
-.confirmation {
-    height: 350px;
-    display: flex;
-      flex-direction: column;
-      justify-content: center;
-      overflow: auto;
-  }
-
-.confirmationtext {
-    font-size: 60px;
-    font-family: 'Alegreya';
-    font-weight: 500;
-}
-
-.servicecrewimg {
-  height: 450px;
-  background-image: url("../img/food.jpg");
-  background-position: top center;
-  background-size: cover;
-}
 /**/
+
 /* Icon */
 .sidenav i[class*='fa'] {
 font-size: 15px;
@@ -193,19 +276,13 @@ i[class='fa fa-minus-circle'],
 i[class="fa fa-arrow-right"] {
   font-size: 20px;
 }
-
-.center {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 /**/
 
 
-/* Index */
-
+/* Content */
+/*Index pages*/
 .featuresimage {
-    height: 100vh;
+    height: 100vh;
     min-height: 100%;
 
     background-image: url("../img/bk.jpg");
@@ -214,7 +291,6 @@ i[class="fa fa-arrow-right"] {
 }
 .featuresimagefull {
     height: 100%;
-
     min-height: 100%;
 
     background-image: url("../img/bk.jpg");
@@ -224,60 +300,5 @@ i[class="fa fa-arrow-right"] {
 
 .featuresgray {
     background-color: #f7f7f7;
-}
-
-.p100 {
-    padding: 100px 100px;
-}
-
-.p15020 {
-    padding: 20px 150px;
-}
-.intro {
-    color: #fff;
-}
-.intro h1 {
-    font-size: 60px;
-    font-weight: 800;
-    line-height: normal;
-    letter-spacing: 3px;
-}
-.intro p {
-    font-size: 20px;
-    line-height: normal;
-    letter-spacing: 1px;
-}
-.introsub h1 {
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-.smallimg {
-  height: 50px;
-}
-
-.medimg {
-  height: 100px;
-}
-.bigimg {
-  height: 130px;
-margin: 0 auto;
-}
-
-.restaurantimg {
-  height: 300px;
-  background-image: url("../img/food.jpg");
-  background-position: top center;
-  background-size: cover;
-}
-
-.restaurantimgcard {
-  height: 180px;
-  background-image: url("../img/food.jpg");
-  background-position: top center;
-  background-size: cover;
-}
-
-.break {
-    margin-bottom: 30px;
 }
 /**/

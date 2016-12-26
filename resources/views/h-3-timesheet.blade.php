@@ -40,8 +40,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-3-timesheet-search-jobtitle">Job Title</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-3-timesheet-search-jobtitle" class="control-label">Job Title</label>
                                                     <select id="h-3-timesheet-search-jobtitle" class="form-control" name="h-3-timesheet-search-jobtitle">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -50,8 +50,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-3-timesheet-search-department">Department</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-3-timesheet-search-department" class="control-label">Department</label>
                                                     <select id="rh-3-timesheet-search-department" class="form-control" name="h-3-timesheet-search-department">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -60,8 +60,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-3-timesheet-search-branchname">Branch Name</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-3-timesheet-search-branchname" class="control-label">Branch Name</label>
                                                     <select id="h-3-timesheet-search-branchname" class="form-control" name="h-3-timesheet-search-branchname">
                                                         <option>A</option>
                                                         <option>B</option>

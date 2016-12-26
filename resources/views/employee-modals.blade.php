@@ -261,6 +261,29 @@
 
                     </div>
                     <div class="row">
+                      <div class="col-md-4 col-sm-6">
+                          <div class="form-group label-floating">
+                              <label for="h-2-employee-civilstatus1" class="control-label">Civil Status</label>
+                              <select id="h-2-employee-civilstatus1" class="form-control" name="h-2-employee-civilstatus1">
+                              <option>Male</option>
+                              <option>Female</option>
+                          </select>
+
+                          </div>
+                      </div>
+                      <div class="col-md-2 col-sm-6">
+                          <div class="form-group label-floating">
+                              <label for="h-2-employee-sex1" class="control-label">Sex</label>
+                              <select id="h-2-employee-sex1" class="form-control  " name="h-2-employee-sex1">
+                              <option>Male</option>
+                              <option>Female</option>
+                          </select>
+                          </div>
+                      </div>
+
+
+                    </div>
+                    <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <div class="form-group label-floating">
                                 <label for="h-2-employee-address1city1" class="control-label">Address Line 1 (City)</label>
@@ -313,18 +336,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2 col-sm-3">
-                            <div class="form-group">
-                                <label for="h-2-employee-sex1">Sex</label>
-                                <select id="h-2-employee-sex1" class="form-control  " name="h-2-employee-sex1">
-                                <option>Male</option>
-                                <option>Female</option>
-                            </select>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="h-2-employee-department1">Department</label>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group label-floating">
+                                <label for="h-2-employee-department1" class="control-label">Department</label>
                                 <select id="h-2-employee-department1" class="form-control  " name="h-2-employee-department1">
                                 <option>A</option>
                                 <option>B</option>
@@ -332,9 +346,9 @@
                             </select>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-5">
-                            <div class="form-group">
-                                <label for="h-2-employee-branchname1">Branch Name</label>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group label-floating">
+                                <label for="h-2-employee-branchname1" class="control-label">Branch Name</label>
                                 <select id="h-2-employee-branchname1" class="form-control  " name="h-2-employee-branchname1">
                                 <option>A</option>
                                 <option>B</option>
@@ -485,6 +499,28 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <div class="form-group label-floating">
+                                <label for="h-2-employee-civilstatus2" class="control-label">Civil Status</label>
+                                <select id="h-2-employee-civilstatus2" class="form-control" name="h-2-employee-civilstatus2">
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-6">
+                            <div class="form-group label-floating">
+                                <label for="h-2-employee-sex2" class="control-label">Sex</label>
+                                <select id="h-2-employee-sex2" class="form-control  " name="h-2-employee-sex2">
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group label-floating">
                                 <label for="h-2-employee-address1city2" class="control-label">Address Line 1 (City)</label>
                                 <input type="text" class="form-control  " id="h-2-employee-address1city2" name="h-2-employee-address1city2" />
                             </div>
@@ -535,18 +571,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-2 col-sm-3">
-                            <div class="form-group">
-                                <label for="h-2-employee-sex2">Sex</label>
-                                <select id="h-2-employee-sex2" class="form-control  " name="h-2-employee-sex2">
-                                <option>Male</option>
-                                <option>Female</option>
-                            </select>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="h-2-employee-department2">Department</label>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="form-group label-floating">
+                                <label for="h-2-employee-department2" class="control-label">Department</label>
                                 <select id="h-2-employee-department2" class="form-control  " name="h-2-employee-department2">
                                 <option>A</option>
                                 <option>B</option>
@@ -554,9 +581,9 @@
                             </select>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-5">
-                            <div class="form-group">
-                                <label for="h-2-employee-branchname2">Branch Name</label>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group label-floating">
+                                <label for="h-2-employee-branchname2" class="control-label">Branch Name</label>
                                 <select id="h-2-employee-branchname2" class="form-control  " name="h-2-employee-branchname2">
                                 <option>A</option>
                                 <option>B</option>

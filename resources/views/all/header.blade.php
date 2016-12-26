@@ -284,7 +284,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="e-3-timeattendance.php"><i class="fa fa-clock-o"></i>&nbsp; TIME IN/OUT</a></li>
+                <li><a href="/employee-timeattendance"><i class="fa fa-clock-o"></i>&nbsp; TIME IN/OUT</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MY ACCOUNT <span class="caret"></span></a>
                     <ul class="dropdown-menu">

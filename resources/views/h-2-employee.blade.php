@@ -48,8 +48,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-2-employee-search-jobtitle">Job Title</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-2-employee-search-jobtitle" class="control-label">Job Title</label>
                                                     <select id="h-2-employee-search-jobtitle" class="form-control" name="h-2-employee-search-jobtitle">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -58,8 +58,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-2-employee-search-department">Department</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-2-employee-search-department" class="control-label">Department</label>
                                                     <select id="h-2-employee-search-department" class="form-control" name="h-2-employee-search-department">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -68,8 +68,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-2-employee-search-branchname">Branch Name</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-2-employee-search-branchname" class="control-label">Branch Name</label>
                                                     <select id="h-2-employee-search-branchname" class="form-control" name="h-2-employee-search-branchname">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -78,8 +78,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-2-employee-search-pending">All/Pending Edits</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-2-employee-search-pending" class="control-label">All/Pending Edits</label>
                                                     <select id="h-2-employee-search-pending" class="form-control" name="h-2-employee-search-pending">
                                                         <option>All </option>
                                                         <option>Pending Edits</option>

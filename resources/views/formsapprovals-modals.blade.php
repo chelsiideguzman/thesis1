@@ -64,8 +64,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="e-4-coe-branchname1">Branch Name</label>
+                            <div class="form-group label-floating">
+                                <label for="e-4-coe-branchname1" class="control-label">Branch Name</label>
                                 <select id="e-4-coe-branchname1" class="form-control" name="e-4-coe-branchname1">
                                 <option>A</option>
                                 <option>B</option>
@@ -178,8 +178,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="e-4-coe-branchname2">Branch Name</label>
+                            <div class="form-group label-floating">
+                                <label for="e-4-coe-branchname2" class="control-label">Branch Name</label>
                                 <select id="e-4-coe-branchname2" class="form-control" name="e-4-coe-branchname2">
                                 <option>A</option>
                                 <option>B</option>
@@ -292,8 +292,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="e-4-laf-branchname1">Branch Name</label>
+                            <div class="form-group label-floating">
+                                <label for="e-4-laf-branchname1" class="control-label">Branch Name</label>
                                 <select id="e-4-laf-branchname1" class="form-control" name="e-4-laf-branchname1">
                                 <option>A</option>
                                 <option>B</option>
@@ -329,8 +329,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <label for="e-4-laf-type1">Type</label>
+                            <div class="form-group label-floating">
+                                <label for="e-4-laf-type1" class="control-label">Type</label>
                                 <select id="e-4-laf-type1" class="form-control" name="e-4-laf-type1">
                                 <option>A</option>
                                 <option>B</option>
@@ -410,8 +410,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="e-4-laf-branchname2">Branch Name</label>
+                            <div class="form-group label-floating">
+                                <label for="e-4-laf-branchname2" class="control-label">Branch Name</label>
                                 <select id="e-4-laf-branchname2" class="form-control" name="e-4-laf-branchname2">
                                 <option>A</option>
                                 <option>B</option>
@@ -447,8 +447,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <label for="e-4-laf-type2">Type</label>
+                            <div class="form-group label-floating">
+                                <label for="e-4-laf-type2" class="control-label">Type</label>
                                 <select id="e-4-laf-type2" class="form-control" name="e-4-laf-type2">
                                 <option>A</option>
                                 <option>B</option>
@@ -528,8 +528,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="e-4-ow-branchname1">Branch Name</label>
+                            <div class="form-group label-floating">
+                                <label for="e-4-ow-branchname1" class="control-label">Branch Name</label>
                                 <select id="e-4-ow-branchname1" class="form-control" name="e-4-ow-branchname1">
                                 <option>A</option>
                                 <option>B</option>
@@ -635,8 +635,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="e-4-ow-branchname2">Branch Name</label>
+                            <div class="form-group label-floating">
+                                <label for="e-4-ow-branchname2" class="control-label">Branch Name</label>
                                 <select id="e-4-ow-branchname2" class="form-control" name="e-4-ow-branchname2">
                                 <option>A</option>
                                 <option>B</option>

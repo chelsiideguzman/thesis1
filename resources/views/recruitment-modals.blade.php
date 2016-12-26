@@ -63,8 +63,8 @@
                 <form class="" action="" method="post">
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="h-1-vacancies-department1">Department</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-vacancies-department1" class="control-label">Department</label>
                                 <select id="h-1-vacancies-department1" class="form-control" name="h-1-vacancies-department1">
                                 <option>A</option>
                                 <option>B</option>
@@ -72,8 +72,8 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="h-1-vacancies-branchname1">Branch Name</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-vacancies-branchname1" class="control-label">Branch Name</label>
                                 <select id="h-1-vacancies-branchname1" class="form-control" name="h-1-vacancies-branchname1">
                                 <option>A</option>
                                 <option>B</option>
@@ -81,8 +81,8 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="h-1-vacancies-status1">Status</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-vacancies-status1" class="control-label">Status</label>
                                 <select id="h-1-vacancies-status1" class="form-control" name="h-1-vacancies-status1">
                                 <option>Active</option>
                                 <option>Inactive</option>
@@ -181,8 +181,8 @@
                 <form class="" action="" method="post">
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="h-1-vacancies-department2">Department</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-vacancies-department2" class="control-label">Department</label>
                                 <select id="h-1-vacancies-department2" class="form-control" name="h-1-vacancies-department2">
                                 <option>A</option>
                                 <option>B</option>
@@ -190,8 +190,8 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="h-1-vacancies-branchname2">Branch Name</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-vacancies-branchname2" class="control-label">Branch Name</label>
                                 <select id="h-1-vacancies-branchname2" class="form-control" name="h-1-vacancies-branchname2">
                                 <option>A</option>
                                 <option>B</option>
@@ -199,8 +199,8 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
-                            <div class="form-group">
-                                <label for="h-1-vacancies-status2">Status</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-vacancies-status2" class="control-label">Status</label>
                                 <select id="h-1-vacancies-status2" class="form-control" name="h-1-vacancies-status2">
                                 <option>Active</option>
                                 <option>Inactive</option>
@@ -333,17 +333,17 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <label for="h-1-candidates-gender1">Gender</label>
-                                <select id="h-1-candidates-gender1" class="form-control" name="h-1-candidates-gender1">
+                            <div class="form-group label-floating">
+                                <label for="h-1-candidates-sex1" class="control-label">Sex</label>
+                                <select id="h-1-candidates-sex1" class="form-control" name="h-1-candidates-sex1">
                                         <option>Male</option>
                                         <option>Female</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <label for="h-1-candidates-city1">City</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-candidates-city1" class="control-label">City</label>
                                 <select id="h-1-candidates-city1" class="form-control" name="h-1-candidates-city1">
                                     <option>A</option>
                                     <option>B</option>
@@ -353,8 +353,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="h-1-candidates-1stbranch1">1st Branch Option</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-candidates-1stbranch1" class="control-label">1st Branch Option</label>
                                 <select id="h-1-candidates-1stbranch1" class="form-control" name="h-1-candidates-1stbranch1">
                                         <option>A</option>
                                         <option>B</option>
@@ -364,8 +364,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="h-1-candidates-2ndbranch1">2nd Branch Option</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-candidates-2ndbranch1" class="control-label">2nd Branch Option</label>
                                 <select id="h-1-candidates-2ndbranch1" class="form-control" name="h-1-candidates-2ndbranch1">
                                         <option>A</option>
                                         <option>B</option>
@@ -453,17 +453,17 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <label for="h-1-candidates-gender2">Gender</label>
-                                <select id="h-1-candidates-gender2" class="form-control" name="h-1-candidates-gender2">
+                            <div class="form-group label-floating">
+                                <label for="h-1-candidates-sex2" class="control-label">Gender</label>
+                                <select id="h-1-candidates-sex2" class="form-control" name="h-1-candidates-sex2">
                                         <option>Male</option>
                                         <option>Female</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
-                            <div class="form-group">
-                                <label for="h-1-candidates-city2">City</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-candidates-city2" class="control-label">City</label>
                                 <select id="h-1-candidates-city2" class="form-control" name="h-1-candidates-city2">
                                     <option>A</option>
                                     <option>B</option>
@@ -473,8 +473,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="h-1-candidates-1stbranch2">1st Branch Option</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-candidates-1stbranch2" class="control-label">1st Branch Option</label>
                                 <select id="h-1-candidates-1stbranch2" class="form-control" name="h-1-candidates-1stbranch2">
                                         <option>A</option>
                                         <option>B</option>
@@ -484,8 +484,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
-                            <div class="form-group">
-                                <label for="h-1-candidates-2ndbranch2">2nd Branch Option</label>
+                            <div class="form-group label-floating">
+                                <label for="h-1-candidates-2ndbranch2" class="control-label">2nd Branch Option</label>
                                 <select id="h-1-candidates-2ndbranch2" class="form-control" name="h-1-candidates-2ndbranch2">
                                         <option>A</option>
                                         <option>B</option>

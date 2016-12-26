@@ -71,6 +71,27 @@
                         <div class="row">
                             <div class="col-md-4 col-sm-6">
                                 <div class="form-group label-floating">
+                                    <label for="e-1-employee-civilstatus" class="control-label">Civil Status</label>
+                                    <select id="e-1-employee-civilstatus" class="form-control" name="e-1-employee-civilstatus">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="form-group label-floating">
+                                    <label for="e-1-employee-sex" class="control-label">Sex</label>
+                                    <select id="e-1-employee-sex" class="form-control" name="e-1-employee-sex">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="form-group label-floating">
                                     <label for="e-1-employee-address1city" class="control-label">Address Line 1 (City)</label>
                                     <input type="text" class="form-control  " id="e-1-employee-address1city" name="e-1-employee-address1city" />
                                 </div>
@@ -121,18 +142,9 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-2 col-sm-3">
-                                <div class="form-group">
-                                    <label for="e-1-employee-sex">Sex</label>
-                                    <select id="e-1-employee-sex" class="form-control" name="e-1-employee-sex">
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                </select>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4">
-                                <div class="form-group">
-                                    <label for="e-1-employee-department">Department</label>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="form-group label-floating">
+                                    <label for="e-1-employee-department" class="control-label">Department</label>
                                     <select id="e-1-employee-department" class="form-control" name="e-1-employee-department">
                                     <option>A</option>
                                     <option>B</option>
@@ -140,9 +152,9 @@
                                 </select>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-5">
-                                <div class="form-group">
-                                    <label for="e-1-employee-branchname">Branch Name</label>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="form-group label-floating">
+                                    <label for="e-1-employee-branchname" class="control-label">Branch Name</label>
                                     <select id="e-1-employee-branchname" class="form-control  " name="e-1-employee-branchname">
                                     <option>A</option>
                                     <option>B</option>

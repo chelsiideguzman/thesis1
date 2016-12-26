@@ -29,8 +29,8 @@
                                     <li>
                                         <form class="" action="" method="post">
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-3-workschedule-restaurant">Restaurant</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-3-workschedule-restaurant" class="control-label">Restaurant</label>
                                                     <select id="h-3-workschedule-restaurant" class="form-control" name="h-3-workschedule-restaurant">
                                                         <option>A</option>
                                                         <option>B</option>
@@ -39,8 +39,8 @@
                                                 </div>
                                             </div>
                                             <div class="p20">
-                                                <div class="form-group">
-                                                    <label for="h-3-workschedule-crew">Crew</label>
+                                                <div class="form-group label-floating">
+                                                    <label for="h-3-workschedule-crew" class="control-label">Crew</label>
                                                     <select id="h-3-workschedule-crew" class="form-control" name="h-3-workschedule-crew">
                                                         <option>Restaurant</option>
                                                         <option>Kitchen</option>
