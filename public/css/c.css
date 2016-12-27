@@ -193,9 +193,15 @@ a:hover {
     font-size: 20px;
     line-height: normal;
 }
-.introsub h1 {
+.introsub h1, .introsub h2 {
+    text-align: center;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+
+.introsub p {
+    text-align: justify;
+    letter-spacing: 1px;;
 }
 
 /**/
@@ -237,9 +243,26 @@ margin: 0 auto;
   background-size: cover;
 }
 
+.restaurantimg2 {
+  height: 500px;
+
+  background-image: url("../img/food.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+
+
 .restaurantimgcard {
   height: 180px;
 
+  background-image: url("../img/food.jpg");
+  background-position: top center;
+  background-size: cover;
+}
+
+.restaurantimgcard2 {
+  height: 180px;
+  width: 200px;
   background-image: url("../img/food.jpg");
   background-position: top center;
   background-size: cover;
@@ -300,5 +323,9 @@ i[class="fa fa-arrow-right"] {
 
 .featuresgray {
     background-color: #f7f7f7;
+}
+
+.boxwhite {
+    background-color: #fff;
 }
 /**/

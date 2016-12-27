@@ -131,6 +131,9 @@ Route::get('/user-recruitment-jobapplication', function () {
     return view('u-1-recruitment-jobapplication');
 });
 
+Route::get('/a', function () {
+    return view('indexes');
+});
 
 Route::get('/', function () {
     return view('index');
