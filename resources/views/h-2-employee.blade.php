@@ -102,7 +102,7 @@
                                 <div class="list-group">
                                     <div class="list-group-item">
                                         <div class="row-picture">
-                                            <img class="circle" src="" alt="Image">
+                                            <img class="circle img-responsive" src="" alt="Image">
                                         </div>
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="text-warning">2016000001</span></h4>
@@ -117,7 +117,7 @@
                                     <div class="list-group-separator"></div>
                                     <div class="list-group-item">
                                         <div class="row-picture">
-                                            <img class="circle" src="" alt="Image">
+                                            <img class="circle img-responsive" src="" alt="Image">
                                         </div>
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="">2016000001</span></h4>
@@ -136,7 +136,7 @@
                                 <div class="list-group" style="clear: both;">
                                     <div class="list-group-item">
                                         <div class="row-picture">
-                                            <img class="circle" src="" alt="Image">
+                                            <img class="circle img-responsive" src="" alt="Image">
                                         </div>
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="text-warning">2016000001</span></h4>
@@ -151,7 +151,7 @@
                                     <div class="list-group-separator"></div>
                                     <div class="list-group-item">
                                         <div class="row-picture">
-                                            <img class="circle" src="" alt="Image">
+                                            <img class="circle img-responsive" src="" alt="Image">
                                         </div>
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="">2016000001</span></h4>
@@ -170,7 +170,7 @@
                                 <div class="list-group" style="clear: both;">
                                     <div class="list-group-item">
                                         <div class="row-picture">
-                                            <img class="circle" src="" alt="Image">
+                                            <img class="circle img-responsive" src="" alt="Image">
                                         </div>
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="text-warning">2016000001</span></h4>
@@ -185,7 +185,7 @@
                                     <div class="list-group-separator"></div>
                                     <div class="list-group-item">
                                         <div class="row-picture">
-                                            <img class="circle" src="" alt="Image">
+                                            <img class="circle img-responsive" src="" alt="Image">
                                         </div>
                                         <div class="row-content">
                                             <h4 class="list-group-item-heading pull-left"><span class="">2016000001</span></h4>

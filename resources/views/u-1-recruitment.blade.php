@@ -35,7 +35,7 @@
                                         </div>
                                         <div class="col-md-5 col-sm-12">
                                             <div class="center-block">
-                                                <img src="img/servicecrew.png" alt="" class="bigimg center">
+                                                <img src="img/servicecrew.png" alt="" class="bigimg center img-responsive">
                                             </div>
                                             <h1 class="text-center">Join Us Now<br /> <small>Upload your Resume</small></h1>
                                             <form class="" action="" method="post">

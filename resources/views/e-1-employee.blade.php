@@ -13,7 +13,7 @@
     @include('all.header')
         <section class="container-fluid">
             <section class="row">
-    @include('e-sidenav')
+              @include('e-sidenav')
                 <article class="col-md-10 col-sm-10 p20">
 
                     <div class="alert alert-success alert-dismissible" role="alert">

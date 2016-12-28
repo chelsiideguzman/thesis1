@@ -89,7 +89,7 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
                             <figure class="snip1531">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample17.jpg" alt="sample17" />
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample17.jpg" alt="sample17"/>
                                 <figcaption>
                                     <h3>Wisteria Ravenclaw</h3>
                                     <p>Which is worse, that everyone has his price, or that the price is always so low.</p>

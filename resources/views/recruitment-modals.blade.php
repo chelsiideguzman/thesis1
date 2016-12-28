@@ -105,16 +105,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-12 col-sm-12">
-                            <div class="form-group label-floating">
-                                <label for="h-1-vacancies-title1" class="control-label">Title of Job Vancancy</label>
-                                <input type="text" class="form-control" id="h-1-vacancies-title1" name="h-1-vacancies-title1" />
-                                <p class="help-block">As seen in the job hunt page</code>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating" id="sandbox-container">
                                 <label for="h-1-vacancies-fromdate1" class="control-label">Application Period From Date</label>
@@ -326,7 +316,7 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group label-floating">
-                                <label for="h-1-candidates-email1" class="control-label">Email Addres</label>
+                                <label for="h-1-candidates-email1" class="control-label">Email Address</label>
                                 <input type="email" class="form-control" id="h-1-candidates-email1" name="h-1-candidates-email1" />
                             </div>
                         </div>
