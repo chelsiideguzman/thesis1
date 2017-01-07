@@ -269,7 +269,7 @@
 </div>
 <!--Modal-->
 
-<nav class="navbar navbar-default" role="navigation">
+<!--nav class="navbar navbar-default" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
@@ -281,7 +281,6 @@
             <a class="navbar-brand" href="/"><img src="img\logo.png" alt="" class="img-responsive"></a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/employee-timeattendance"><i class="fa fa-clock-o"></i>&nbsp; TIME IN/OUT</a></li>
@@ -297,7 +296,5 @@
                 </li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
-</nav>
+</nav-->

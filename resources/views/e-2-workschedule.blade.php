@@ -13,8 +13,8 @@
     @include('all.header')
         <section class="container-fluid">
             <section class="row">
-    @include('e-sidenav')
-                <article class="col-md-10 col-sm-10 p20">
+              @include('e-sidenav')
+                <article class="col-md-9 col-sm-9">
                     <div class="titleh">
                         <h3>Work Schedule</h3>
                         <h4>Sandaya Yakiniku (October 28, 2016 - October 28, 2016)</h4>

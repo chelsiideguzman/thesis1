@@ -1,41 +1,120 @@
-<article class="col-md-2 col-sm-12 sidenav">
-    <ul class="list-unstyled">
-        <li>
-            <a class="btn btn-primary navbtn" href="/employee-employeeselfservice">
-                <i class="fa fa-id-card"></i> &nbsp;Employee
-            </a>
+<article class="col-md-3 col-sm-3 nopadding" >
+
+<!-- Overlay for fixed sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-stacked sidebar-inverse open" role="navigation">
+    <!-- Sidebar header -->
+    <div class="sidebar-header header-cover" style="background-image: url(img/logo.png);">
+        <!-- Top bar -->
+        <div class="top-bar"></div>
+        <!-- Sidebar toggle button -->
+        <button type="button" class="sidebar-toggle">
+            <i class="icon-material-sidebar-arrow"></i>
+        </button>
+        <!-- Sidebar brand name -->
+        <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+            john.doe@gmail.com
+            <b class="caret"></b>
+        </a>
+    </div>
+
+    <!-- Sidebar navigation -->
+    <ul class="nav sidebar-nav">
+        <li class="dropdown">
+            <ul id="settings-dropdown" class="dropdown-menu">
+                <li>
+                    <a href="#" tabindex="-1">
+                        Register Fingerprint
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#password" tabindex="-1">
+                        Password
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#emailaddress" tabindex="-1">
+                        Email Address
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#signout" tabindex="-1">
+                        Sign Out
+                    </a>
+                </li>
+            </ul>
         </li>
         <li>
-            <a class="btn btn-primary navbtn" role="button" data-toggle="collapse" href="#att" aria-expanded="false" aria-controls="">
-                <i class="fa fa-calendar"></i>&nbsp; Attendance <i class="fa fa-chevron-down navbtnicon"></i>
-            </a>
-            <div class="collapse" id="att">
-                <div class="p40">
-                    <ul class="list-unstyled">
-                        <li><a href="/employee-timesheet"><i class="material-icons">assignment_ind</i>&nbsp; Time Sheet</a></li>
-                        <li><a href="/employee-workschedule"><i class="material-icons">assignment</i>&nbsp; Work Schedule</a></li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-        <li>
-            <a class="btn btn-primary navbtn" href="employee-payroll">
-                <i class="fa fa-money"></i>&nbsp; Payroll
+          <a href="/employee-timeattendance">
+                <i class="sidebar-icon fa fa-clock-o"></i> &nbsp; Time In/Out
             </a>
         </li>
+        <li class="divider"></li>
         <li>
-            <a class="btn btn-primary navbtn" role="button" data-toggle="collapse" href="#faa" aria-expanded="false" aria-controls="">
-                <i class="fa fa-clipboard"></i>&nbsp; Forms <i class="fa fa-chevron-down navbtnicon"></i>
+            <a href="/employee-employeeselfservice">
+                <i class="sidebar-icon fa fa-id-card"></i> &nbsp;Employee
+                <span class="sidebar-badge">3</span>
             </a>
-            <div class="collapse" id="faa">
-                <div class="p40">
-                    <ul class="list-unstyled">
-                        <li><a href="employee-certificateofemployment"><i class="fa fa-file-text-o"></i>&nbsp; Certificate of Employment</a></li>
-                        <li><a href="employee-leaveapplicationform"><i class="fa fa-file-text-o"></i>&nbsp; Leave Application Form</a></li>
-                        <li><a href="employee-otherwaives"><i class="fa fa-file-text-o"></i>&nbsp; Other Waives</a></li>
-                    </ul>
-                </div>
-            </div>
+        </li>
+        <li class="dropdown">
+            <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="sidebar-icon fa fa-calendar"></i>&nbsp; Attendance
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="/employee-timesheet" tabindex="-1">
+                        Time Sheet
+                        <span class="sidebar-badge">12</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/employee-workschedule" tabindex="-1">
+                        Work Schedule
+                        <span class="sidebar-badge">0</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="/employee-payroll">
+                <i class="sidebar-icon fa fa-money"></i>&nbsp; Payroll
+                <span class="sidebar-badge">3</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="sidebar-icon fa fa-clipboard"></i>&nbsp; Forms
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="/employee-certificateofemployment" tabindex="-1">
+                        Certificate of Employment
+                        <span class="sidebar-badge">12</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/employee-leaveapplicationform" tabindex="-1">
+                        Leave Application Form
+                        <span class="sidebar-badge">0</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/employee-otherwaives" tabindex="-1">
+                        Other Waives
+                        <span class="sidebar-badge">0</span>
+                    </a>
+                </li>
+            </ul>
         </li>
     </ul>
+    <!-- Sidebar divider -->
+    <!-- <div class="sidebar-divider"></div> -->
+
+    <!-- Sidebar text -->
+    <!--  <div class="sidebar-text">Text</div> -->
+</aside>
 </article>

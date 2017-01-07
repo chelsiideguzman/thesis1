@@ -10,11 +10,12 @@
 
 <body>
     <div id="wrap">
-    @include('all.header')
+        @include('all.header')
         <section class="container-fluid">
             <section class="row">
-    @include('e-sidenav')
-                <article class="col-md-10 col-sm-10 p20">
+              @include('e-sidenav')
+                <article class="col-md-9 col-sm-9">
+                <!--article class="p20"-->
                     <div class="titleh">
                         <h3>Time Sheet</h3>
                     </div>

@@ -15,7 +15,7 @@
         <section class="container-fluid">
             <section class="row">
                 @include('h-sidenav')
-                <article class="col-md-10 col-sm-10 p20">
+                <article class="col-md-9 col-sm-9">
                     <div class="titleh">
                         <h3>Leave Application Form</h3>
                     </div>

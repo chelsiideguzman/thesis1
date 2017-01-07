@@ -14,7 +14,7 @@
         <section class="container-fluid">
             <section class="row">
               @include('a-sidenav')
-                <article class="col-md-10 col-sm-10 p20">
+              <article class="col-md-9 col-sm-9">
                     <button type="button" name="button" class=" btn btn-primary btn-raised" onclick="goBack();"><i class="fa fa-chevron-left"></i>&nbsp; Back</button>
                     <div class="titleh">
                         <h3>Employee Evaluation</h3>

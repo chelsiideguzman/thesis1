@@ -10,13 +10,11 @@
 
 <body>
     <div id="wrap">
-    @include('all.header')
         <section class="container-fluid">
-            <section class="row">
+            <section class="row featuresimagefull">
                 <article class="col-md-12 col-sm-12 p15020">
-                    <button type="button" name="button" class=" btn btn-primary btn-raised" onclick="goBack();"><i class="fa fa-chevron-left"></i>&nbsp; Back</button>
                     <div class="row">
-
+                        <button type="button" name="button" class=" btn btn-default btn-raised" onclick="goBack();"><i class="fa fa-chevron-left"></i>&nbsp; Back</button>
                         <div class="card">
                             <div class="card-block">
                                 <div class="col-md-7 col-sm-12">

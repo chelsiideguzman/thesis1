@@ -16,16 +16,8 @@
         <section class="container-fluid">
             <section class="row">
                 @include('a-sidenav')
-                <article class="col-md-10 col-sm-10 p20">
+                <article class="col-md-9 col-sm-9">
                     <div class="row">
-                      <div class="alert alert-success alert-dismissible" role="alert">
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <strong>Well done!</strong> You successfully created a new role.
-                      </div>
-                      <div class="alert alert-success alert-dismissible" role="alert">
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <strong>Well done!</strong> You successfully updated the access role.
-                      </div>
                         <ul class="nav nav-tabs">
                             <li class="active"><a href="#recruitment" data-toggle="tab">Recruitment</a></li>
                             <li><a href="#employee" data-toggle="tab">Employee Management</a></li>

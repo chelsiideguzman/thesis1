@@ -14,13 +14,8 @@
     @include('all.header')
         <section class="container-fluid">
             <section class="row">
-    @include('e-sidenav')
-                <article class="col-md-10 col-sm-10 p20">
-
-                    <div class="alert alert-success alert-dismissible" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <strong>Well done!</strong> You successfully requested for a Other Waives Form.
-                    </div>
+              @include('e-sidenav')
+              <article class="col-md-9 col-sm-9">
 
                     <div class="titleh">
                         <h3>Other Waives</h3>

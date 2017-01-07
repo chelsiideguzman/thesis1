@@ -1,3 +1,5 @@
+<!--Sidenav-->
+<link rel="stylesheet" href="css/sidenav.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!--JQuery and JQuery Validate-->
@@ -6,13 +8,11 @@
 
 <!--FontAwesome and Bootstrap-->
 <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
 
 <!--Custom-->
-<link rel="stylesheet" href="css/c.css" />
+<link rel="stylesheet" href="css/ddd.css" />
 <link rel="stylesheet" href="css/snippets.css" />
 <script src="js/realtime.js" charset="utf-8"></script>
 

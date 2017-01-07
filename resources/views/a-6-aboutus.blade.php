@@ -16,38 +16,8 @@
         <section class="container-fluid">
             <section class="row">
                 @include('a-sidenav')
-                <article class="col-md-10 col-sm-10 p20">
+                <article class="col-md-9 col-sm-9">
                     <div class="row p20">
-                      <div class="alert alert-success alert-dismissible" role="alert">
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <strong>Well done!</strong> You successfully updated the Mission &amp; Vision.
-                      </div>
-                      <div class="alert alert-success alert-dismissible" role="alert">
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <strong>Well done!</strong> You successfully created a new restaurant.
-                      </div>
-                      <div class="alert alert-success alert-dismissible" role="alert">
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <strong>Well done!</strong> You successfully updated the restaurant information.
-                      </div>
-                      <div class="alert alert-success alert-dismissible" role="alert">
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <strong>Well done!</strong> You successfully created a new department.
-                      </div>
-                      <div class="alert alert-success alert-dismissible" role="alert">
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <strong>Well done!</strong> You successfully updated the department information.
-                      </div>
-                      <div class="alert alert-success alert-dismissible" role="alert">
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <strong>Well done!</strong> You successfully created a new job title.
-                      </div>
-                      <div class="alert alert-success alert-dismissible" role="alert">
-                          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                          <strong>Well done!</strong> You successfully updated the job title information.
-                      </div>
-
-
                       <div class="card">
                         <div class="card-block p2030">
                             <div class="pull-right">

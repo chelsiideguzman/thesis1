@@ -1,86 +1,191 @@
-<article class="col-md-2 col-sm-2 sidenav ">
-    <ul class="list-unstyled">
-        <li>
-            <a class="btn btn-primary navbtn" role="button" data-toggle="collapse" href="#rec" aria-expanded="false" aria-controls="">
-                <i class="fa fa-handshake-o"></i>&nbsp; Recruitment <i class="fa fa-chevron-down navbtnicon"></i>
-            </a>
-            <div class="collapse" id="rec">
-                <div class="p40">
-                    <ul class="list-unstyled">
-                        <li><a href="/hr-jobvacancies"><i class="material-icons">assignment_turned_in</i>&nbsp; Vacancies</a></li>
-                        <li><a href="/hr-jobcandidates"><i class="material-icons">supervisor_account</i>&nbsp; Candidates</a></li>
-                    </ul>
-                </div>
-            </div>
+<article class="col-md-3 col-sm-3 nopadding" >
+
+<!-- Overlay for fixed sidebar -->
+<div class="sidebar-overlay"></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-stacked sidebar-inverse open" role="navigation">
+    <!-- Sidebar header -->
+    <div class="sidebar-header header-cover" style="background-image: url(img/logo.png);">
+        <!-- Top bar -->
+        <div class="top-bar"></div>
+        <!-- Sidebar toggle button -->
+        <button type="button" class="sidebar-toggle">
+            <i class="icon-material-sidebar-arrow"></i>
+        </button>
+        <!-- Sidebar brand name -->
+        <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+            john.doe@gmail.com
+            <b class="caret"></b>
+        </a>
+    </div>
+
+    <!-- Sidebar navigation -->
+    <ul class="nav sidebar-nav">
+        <li class="dropdown">
+            <ul id="settings-dropdown" class="dropdown-menu">
+                <li>
+                    <a href="#" tabindex="-1">
+                        Register Fingerprint
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#password" tabindex="-1">
+                        Password
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#emailaddress" tabindex="-1">
+                        Email Address
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#signout" tabindex="-1">
+                        Sign Out
+                    </a>
+                </li>
+            </ul>
         </li>
         <li>
-            <a class="btn btn-primary navbtn" href="/hr-employeelist">
-                <i class="fa fa-id-card"></i> &nbsp;Employee
+            <a href="/employee-timeattendance">
+                <i class="sidebar-icon fa fa-clock-o"></i> &nbsp; Time In/Out
             </a>
         </li>
-        <li>
-            <a class="btn btn-primary navbtn" role="button" data-toggle="collapse" href="#att" aria-expanded="false" aria-controls="">
-                <i class="fa fa-calendar"></i>&nbsp; Attendance <i class="fa fa-chevron-down navbtnicon"></i>
+        <li class="divider"></li>
+        <li class="dropdown">
+            <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="sidebar-icon fa fa-handshake-o"></i>&nbsp; Recruitment
+                <b class="caret"></b>
             </a>
-            <div class="collapse" id="att">
-                <div class="p40">
-                    <ul class="list-unstyled">
-                        <li><a href="/hr-timesheet"><i class="material-icons">assignment_ind</i>&nbsp; Time Sheet</a></li>
-                        <li><a href="" data-toggle="modal" data-target="#workinghours"><i class="material-icons">update</i>&nbsp; Working Hours</a></li>
-                        <li><a href="/hr-workschedule"><i class="material-icons">assignment</i>&nbsp; Work Schedule</a></li>
-                    </ul>
-                </div>
-            </div>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="/hr-jobvacancies" tabindex="-1">
+                        Vacancy
+                        <span class="sidebar-badge">12</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/hr-jobcandidates" tabindex="-1">
+                        Candidates
+                        <span class="sidebar-badge">0</span>
+                    </a>
+                </li>
+            </ul>
         </li>
         <li>
-            <a class="btn btn-primary navbtn" href="/admin-payroll">
-                <i class="fa fa-money"></i>&nbsp; Payroll
+            <a href="/hr-employeelist">
+                <i class="sidebar-icon fa fa-id-card"></i> &nbsp;Employee
+                <span class="sidebar-badge">3</span>
             </a>
         </li>
-        <li>
-            <a class="btn btn-primary navbtn" role="button" data-toggle="collapse" href="#faa" aria-expanded="false" aria-controls="">
-                <i class="fa fa-clipboard"></i>&nbsp; Forms <i class="fa fa-chevron-down navbtnicon"></i>
+        <li class="dropdown">
+            <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="sidebar-icon fa fa-calendar"></i>&nbsp; Attendance
+                <b class="caret"></b>
             </a>
-            <div class="collapse" id="faa">
-                <div class="p40">
-                    <ul class="list-unstyled">
-                        <li><a href="/hr-certificateofemployment"><i class="fa fa-file-text-o"></i>&nbsp; Certificate of Employment</a></li>
-                        <li><a href="/hr-leaveapplicationform"><i class="fa fa-file-text-o"></i>&nbsp; Leave Application Form</a></li>
-                        <li><a href="/hr-otherwaives"><i class="fa fa-file-text-o"></i>&nbsp; Other Waives</a></li>
-                    </ul>
-                </div>
-            </div>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="/hr-timesheet" tabindex="-1">
+                        Time Sheet
+                        <span class="sidebar-badge">12</span>
+                    </a>
+                </li>
+                <li>
+                    <a data-toggle="modal" data-target="#workinghours" tabindex="-1">
+                        Working Hours
+                    </a>
+                </li>
+                <li>
+                    <a href="/hr-workschedule" tabindex="-1">
+                        Work Schedule
+                        <span class="sidebar-badge">0</span>
+                    </a>
+                </li>
+            </ul>
         </li>
         <li>
-            <a class="btn btn-primary navbtn" href="/admin-aboutus">
-                <i class="fa fa-cutlery"></i>&nbsp; About Us
+            <a href="/admin-payroll">
+                <i class="sidebar-icon fa fa-money"></i>&nbsp; Payroll
+                <span class="sidebar-badge">3</span>
             </a>
         </li>
-        <li>
-            <a class="btn btn-primary navbtn" role="button" data-toggle="collapse" href="#acc" aria-expanded="false" aria-controls="">
-                <i class="material-icons">contacts</i>&nbsp; Privileges <i class="fa fa-chevron-down navbtnicon"></i>
+        <li class="dropdown">
+            <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="sidebar-icon fa fa-clipboard"></i>&nbsp; Forms
+                <b class="caret"></b>
             </a>
-            <div class="collapse" id="acc">
-                <div class="p40">
-                    <ul class="list-unstyled">
-                        <li><a href="/admin-accessrole"><i class="fa fa-pencil-square-o"></i>&nbsp; Access Role</a></li>
-                        <li><a href="/admin-customaccess"><i class="fa fa-pencil-square"></i>&nbsp; Custom Access</a></li>
-                    </ul>
-                </div>
-            </div>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="/hr-certificateofemployment" tabindex="-1">
+                        Certificate of Employment
+                        <span class="sidebar-badge">12</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/hr-leaveapplicationform" tabindex="-1">
+                        Leave Application Form
+                        <span class="sidebar-badge">0</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/hr-otherwaives" tabindex="-1">
+                        Other Waives
+                        <span class="sidebar-badge">0</span>
+                    </a>
+                </li>
+            </ul>
         </li>
         <li>
-            <a class="btn btn-primary navbtn" role="button" data-toggle="collapse" href="#per" aria-expanded="false" aria-controls="">
-                <i class="material-icons">thumbs_up_down</i>&nbsp; Performance <i class="fa fa-chevron-down navbtnicon"></i>
+            <a href="/admin-aboutus">
+                <i class="sidebar-icon fa fa-cutlery"></i>&nbsp; About Us
+                <span class="sidebar-badge">3</span>
             </a>
-            <div class="collapse" id="per">
-                <div class="p40">
-                    <ul class="list-unstyled">
-                        <li><a href="/admin-evaluation"><i class="fa fa-file-text"></i>&nbsp; Evaluation</a></li>
-                        <li><a href="/admin-customevaluation"><i class="fa fa-list-alt"></i>&nbsp; Custom Evaluation</a></li>
-                    </ul>
-                </div>
-            </div>
+        </li>
+        <li class="dropdown">
+            <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="sidebar-icon fa fa-clipboard"></i>&nbsp; Access Privileges
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="/admin-accessrole" tabindex="-1">
+                        Access Role
+                        <span class="sidebar-badge">12</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin-customaccess" tabindex="-1">
+                        Custom Access
+                        <span class="sidebar-badge">0</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="sidebar-icon fa fa-clipboard"></i>&nbsp; Performance Evaluation
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="/admin-evaluation" tabindex="-1">
+                        Evaluation
+                        <span class="sidebar-badge">12</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin-customevaluation" tabindex="-1">
+                        Custom Evaluation
+                        <span class="sidebar-badge">0</span>
+                    </a>
+                </li>
+            </ul>
         </li>
     </ul>
+    <!-- Sidebar divider -->
+    <!-- <div class="sidebar-divider"></div> -->
+
+    <!-- Sidebar text -->
+    <!--  <div class="sidebar-text">Text</div> -->
+</aside>
 </article>
