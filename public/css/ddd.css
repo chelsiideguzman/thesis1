@@ -1,24 +1,7 @@
-@font-face {
-    font-family: 'Alegreya';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('fonts/Alegreya-Regular.woff') format('woff'), url('fonts/Alegreya-Regular.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'SourceSansPro';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('fonts/SourceSansPro-Regular.woff') format('woff'), url('fonts/SourceSansPro-Regular.woff2') format('woff2');
-}
-
-* {
-    font-family: 'SourceSansPro', serif;
-}
 /*Main*/
-
+* {
+    font-family: 'Roboto',sans-serif;
+}
 html, body {
     height: 100%;
 }
@@ -153,6 +136,10 @@ a:hover {
     padding: 20px 150px;
 }
 
+.p100150 {
+    padding: 100px 150px 0px 100px;
+}
+
 /**/
 
 /*Text*/
@@ -186,26 +173,26 @@ a:hover {
 /*Index*/
 .intro h1 {
     letter-spacing: 3px;
-
+font-family: 'Tangerine',cursive;
     font-size: 60px;
     font-weight: 800;
     line-height: normal;
 }
-.intro p {
+.introsub p {
     letter-spacing: 1px;
-
-    font-size: 20px;
-    line-height: normal;
+    font-size: 17px;
+    line-height: 30px;
 }
 .introsub h1, .introsub h2 {
-    text-align: center;
+    font-family: 'Work Sans';    font-size: 30px;    letter-spacing: 3px;    text-transform: uppercase;    text-align: center;}.textsansserif {
+    font-family: 'Work Sans';
+    font-size: 30px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-
-.introsub p {
-    text-align: justify;
-    letter-spacing: 1px;;
+.textcursive {
+    font-family: 'Montez';
+    font-size: 25px;
 }
 
 /**/
@@ -312,7 +299,15 @@ i[class="fa fa-arrow-right"] {
     height: 100vh;
     min-height: 100%;
 
-    background-image: url("../img/bk.jpg");
+    background-image: url("../img/ab.jpeg");
+    background-position: top center;
+    background-size: cover;
+}
+.featuresimage2 {
+    height: 100vh;
+    min-height: 100%;
+
+    background-image: url("../img/aa.jpg");
     background-position: top center;
     background-size: cover;
 }
@@ -320,7 +315,7 @@ i[class="fa fa-arrow-right"] {
     height: 100%;
     min-height: 100%;
 
-    background-image: url("../img/bk.jpg");
+    background-image: url("../img/aa.jpg");
     background-position: top center;
     background-size: cover;
 }
@@ -328,8 +323,15 @@ i[class="fa fa-arrow-right"] {
 .featuresgray {
     background-color: #f7f7f7;
 }
-
+.featuresblue {
+    background-color: #216869;
+}
 .boxwhite {
     background-color: #fff;
+}
+.paddingdiv {
+    padding: 50px 40px;
+    line-height: 30px;
+    text-align: justify;
 }
 /**/

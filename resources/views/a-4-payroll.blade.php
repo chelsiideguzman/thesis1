@@ -103,7 +103,13 @@
                         <table class="table table-responsive table-condensed table-hover">
                             <thead>
                                 <tr>
-                                    <th>Select All</th>
+                                    <th>
+                                        <div class="checkbox">
+                                            <label>
+                                              <input type="checkbox">
+                                            </label>
+                                        </div>
+                                    </th>
                                     <th>Hold</th>
                                     <th> No. </th>
                                     <th> Employee </th>

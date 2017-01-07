@@ -1,6 +1,7 @@
 <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" charset="utf-8"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/sidenav.js" charset="utf-8"></script>
+<script src="js/wow/wow.min.js" charset="utf-8"></script>
 <script src="js/timepicker/timedropper.min.js" charset="utf-8"></script>
 <script src="js/bootstrap-datepicker.min.js" charset="utf-8"></script>
 
@@ -9,6 +10,7 @@
         window.history.back();
     }
     $.material.init();
+    new WOW().init();
     $("#a-3-workinghours-fromtime").timeDropper();
     $("#a-3-workinghours-totime").timeDropper();
     $("#a-6-aboutus-fromtime1n").timeDropper();

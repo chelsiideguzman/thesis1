@@ -152,11 +152,9 @@
     @include('aboutus-modals')
     @include('recruitment-modals')
     <div id="wrap">
-
-        @include('all.header-index')
-
         <section class="container-fluid">
             <section class="row featuresimagefull">
+                @include('all.header-index2')
                 <article class="col-md-12 col-sm-12 p15020">
                     <div class="card">
                         <div class="card-block">

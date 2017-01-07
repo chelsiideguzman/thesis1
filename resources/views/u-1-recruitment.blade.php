@@ -11,15 +11,10 @@
     @include('aboutus-modals')
     @include('recruitment-modals')
     <div id="wrap">
-      @include('all.header-index')
         <section class="container-fluid">
             <section class="row featuresimagefull">
+                @include('all.header-index2')
                 <article class="col-md-12 col-sm-12 p15020">
-
-                    <div class="alert alert-success alert-dismissible" role="alert">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <strong>Well done!</strong> You successfully applied for a job.
-                    </div>
 
                     <div class="card">
                         <div class="card-block">
