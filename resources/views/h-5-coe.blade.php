@@ -15,8 +15,9 @@
         <section class="container-fluid">
             <section class="row">
                 @include('h-sidenav')
-                <article class="col-md-9 col-sm-9">
-                    <div class="titleh">
+                <article class="col-md-9 col-sm-9" id="rightcon">
+                    <div class="titleh clearfix">
+                        <button class="btn btn-default sidebar-toggle pull-left"><i class="fa fa-bars "></i></button>
                         <h3>Certificate of Employment</h3>
                     </div>
                     <div class="tabletop">
