@@ -159,7 +159,7 @@
         </li>
         <li class="dropdown">
             <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
-                <i class="sidebar-icon fa fa-clipboard"></i>&nbsp; Performance Evaluation
+                <i class="sidebar-icon fa fa-bar-chart-o"></i>&nbsp; Performance Evaluation
                 <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
