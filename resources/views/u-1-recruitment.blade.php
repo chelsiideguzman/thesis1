@@ -26,7 +26,7 @@
                                 <div class="tab-pane fade active in p2030" id="servicecrew">
                                     <div class="row">
                                         <div class="col-md-7 col-sm-12">
-                                            <div class="servicecrewimg"></div>
+                                            <div class="servicecrewimg"></div><br />
                                         </div>
                                         <div class="col-md-5 col-sm-12">
                                             <div class="center-block">
@@ -42,7 +42,7 @@
                                                             <input type="text" id="u-1-recruitment-fn" class="form-control" name="u-1-recruitment-fn"></textarea>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-2 col-sm-22">
+                                                    <div class="col-md-2 col-sm-2">
                                                         <div class="form-group label-floating">
                                                             <label for="u-1-recruitment-mi" class="control-label">MI</label>
                                                             <input type="text" id="u-1-recruitment-mi" class="form-control" name="u-1-recruitment-mi"></textarea>

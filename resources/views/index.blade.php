@@ -34,8 +34,8 @@
                 </article>
             </section>
             <section class="row featuresimage2">
-                <article class="col-md-4 col-sm-1"></article>
-                <article class="col-md-8 col-sm-11 p100150">
+                <article class="col-md-4"></article>
+                <article class="col-md-8 col-sm-12 p50150">
                     <div class="boxwhite paddingdiv introsub wow fadeInUp">
                         <h2>Mission</h2>
                         <hr /><br />
