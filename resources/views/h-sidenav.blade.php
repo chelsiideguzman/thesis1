@@ -55,7 +55,7 @@
               <ul class="dropdown-menu">
                   <li>
                       <a href="" tabindex="-1">
-                          Payslip
+                          Payslip-
                       </a>
                   </li>
                   <li>
