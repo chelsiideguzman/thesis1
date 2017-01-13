@@ -14,9 +14,9 @@
         <section class="container-fluid">
             <section class="row">
               @include('a-sidenav')
-              <article class="col-md-9 col-sm-9">
-                    <button type="button" name="button" class=" btn btn-primary btn-raised" onclick="goBack();"><i class="fa fa-chevron-left"></i>&nbsp; Back</button>
-                    <div class="titleh">
+              <article class="col-md-9 col-sm-9" id="rightcon">
+                  <div class="titleh clearfix">
+                      <button class="btn btn-default sidebar-toggle pull-left"><i class="fa fa-bars "></i></button>
                         <h3>Employee Evaluation</h3>
                     </div>
                     <div class="tabletop">
@@ -134,6 +134,9 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
+                                <div class="pull-left">
+                                    <button type="button" name="button" class="btn btn-primary pull-left" onclick="goBack();"><i class="fa fa-chevron-left"></i>&nbsp; Back</button>
+                                </div>
                                 <div class="pull-right">
                                     <button type="submit" class="btn btn-primary btn-raised">Save</button>
                                     <button type="button" class="btn btn-primary btn-raised">Cancel</button>

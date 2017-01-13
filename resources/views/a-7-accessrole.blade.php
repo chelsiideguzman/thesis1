@@ -16,7 +16,11 @@
         <section class="container-fluid">
             <section class="row">
                 @include('a-sidenav')
-                <article class="col-md-9 col-sm-9">
+                <article class="col-md-9 col-sm-9" id="rightcon">
+                    <div class="titleh clearfix">
+                        <button class="btn btn-default sidebar-toggle pull-left"><i class="fa fa-bars "></i></button>
+                        <h3>Access Role</h3>
+                      </div>
                     <div class="row">
                         <ul class="nav nav-tabs">
                             <li class="active"><a href="#recruitment" data-toggle="tab">Recruitment</a></li>
