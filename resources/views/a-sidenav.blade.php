@@ -47,6 +47,29 @@
                 <i class="sidebar-icon fa fa-clock-o"></i> &nbsp; Time In/Out
             </a>
         </li>
+        <li class="dropdown">
+            <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="sidebar-icon fa fa-file-text-o"></i>&nbsp; Document Manager
+                <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="" tabindex="-1">
+                        Payslip
+                    </a>
+                </li>
+                <li>
+                    <a href="" tabindex="-1">
+                        Exit Clearance
+                    </a>
+                </li>
+                <li>
+                    <a href="" tabindex="-1">
+                        HRIS Manual
+                    </a>
+                </li>
+            </ul>
+        </li>
         <li class="divider"></li>
         <li class="dropdown">
             <a class="ripple-effect dropdown-toggle" href="#" data-toggle="dropdown">
