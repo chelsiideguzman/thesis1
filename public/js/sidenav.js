@@ -1,17 +1,25 @@
-/**
- * Created by Kupletsky Sergey on 17.10.14.
- *
- * Material Sidebar (Profile menu)
- * Tested on Win8.1 with browsers: Chrome 37, Firefox 32, Opera 25, IE 11, Safari 5.1.7
- * You can use this sidebar in Bootstrap (v3) projects. HTML-markup like Navbar bootstrap component will make your work easier.
- * Dropdown menu and sidebar toggle button works with JQuery and Bootstrap.min.js
- */
-
-// Sidebar toggle
-//
-// -------------------
 $(document).ready(function() {
     var overlay = $('.sidebar-overlay');
+
+
+    //detects the current media query
+    var mq = window.matchMedia("only screen and (max-width : 767px)");
+
+    // media query event handler
+    if (matchMedia) {
+        mq.addListener(WidthChange);
+        WidthChange(mq);
+    }
+
+    // media query change
+    function WidthChange(mq) {
+        if (mq.matches) {
+            overlay.addClass('active');
+        } else {
+            overlay.removeClass('active');
+        }
+    }
+
 
     $('.sidebar-toggle').on('click', function() {
         var sidebar = $('#sidebar');
@@ -20,6 +28,17 @@ $(document).ready(function() {
             overlay.addClass('active');
         } else {
             overlay.removeClass('active');
+        }
+        //if toggle button is clicked, the bootstrap grid adjusts
+        var rightcon = $('#rightcon');
+        if (rightcon.hasClass('col-md-9 col-sm-9')) {
+            rightcon.removeClass('col-md-9 col-sm-9');
+            rightcon.addClass('col-md-12 col-sm-12');
+            WidthChange(mq);
+        } else {
+            rightcon.removeClass('col-md-12 col-sm-12');
+            rightcon.addClass('col-md-9 col-sm-9');
+            WidthChange(mq);
         }
     });
 
@@ -41,13 +60,13 @@ $(document).ready(function() {
     var toggleButtons = $('.sidebar-toggle');
 
     // Hide toggle buttons on default position
-    toggleButtons.css('display', 'none');
+    //toggleButtons.css('display', 'none');
     //$('body').css('display', 'table');
 
 
     // Sidebar position
     $('#sidebar-position').change(function() {
-        var value = $( this ).val();
+        var value = $(this).val();
         sidebar.removeClass('sidebar-fixed-left sidebar-fixed-right sidebar-stacked').addClass(value).addClass('open');
         if (value == 'sidebar-fixed-left' || value == 'sidebar-fixed-right') {
             $('.sidebar-overlay').addClass('active');
@@ -65,7 +84,7 @@ $(document).ready(function() {
 
     // Sidebar theme
     $('#sidebar-theme').change(function() {
-        var value = $( this ).val();
+        var value = $(this).val();
         sidebar.removeClass('sidebar-default sidebar-inverse sidebar-colored sidebar-colored-inverse').addClass(value)
     });
 
@@ -93,12 +112,12 @@ $(document).ready(function() {
     var dropdown = $('.dropdown');
 
     // Add slidedown animation to dropdown
-    dropdown.on('show.bs.dropdown', function(e){
+    dropdown.on('show.bs.dropdown', function(e) {
         $(this).find('.dropdown-menu').first().stop(true, true).slideDown();
     });
 
     // Add slideup animation to dropdown
-    dropdown.on('hide.bs.dropdown', function(e){
+    dropdown.on('hide.bs.dropdown', function(e) {
         $(this).find('.dropdown-menu').first().stop(true, true).slideUp();
     });
 })(jQuery);
@@ -107,25 +126,25 @@ $(document).ready(function() {
 
 (function(removeClass) {
 
-	jQuery.fn.removeClass = function( value ) {
-		if ( value && typeof value.test === "function" ) {
-			for ( var i = 0, l = this.length; i < l; i++ ) {
-				var elem = this[i];
-				if ( elem.nodeType === 1 && elem.className ) {
-					var classNames = elem.className.split( /\s+/ );
+    jQuery.fn.removeClass = function(value) {
+        if (value && typeof value.test === "function") {
+            for (var i = 0, l = this.length; i < l; i++) {
+                var elem = this[i];
+                if (elem.nodeType === 1 && elem.className) {
+                    var classNames = elem.className.split(/\s+/);
 
-					for ( var n = classNames.length; n--; ) {
-						if ( value.test(classNames[n]) ) {
-							classNames.splice(n, 1);
-						}
-					}
-					elem.className = jQuery.trim( classNames.join(" ") );
-				}
-			}
-		} else {
-			removeClass.call(this, value);
-		}
-		return this;
-	}
+                    for (var n = classNames.length; n--;) {
+                        if (value.test(classNames[n])) {
+                            classNames.splice(n, 1);
+                        }
+                    }
+                    elem.className = jQuery.trim(classNames.join(" "));
+                }
+            }
+        } else {
+            removeClass.call(this, value);
+        }
+        return this;
+    }
 
 })(jQuery.fn.removeClass);

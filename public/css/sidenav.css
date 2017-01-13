@@ -50,27 +50,6 @@
 }
 
 /* -- Demo style ------------------------------- */
-html, body {
-  position: relative;
-  min-height: 100%;
-  height: 100%;
-}
-
-body {
-  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #212121;
-  background-color: #f5f5f5;
-
-  // Font Rendering
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
-
 .sidebar-overlay {
   visibility: hidden;
   position: fixed;
@@ -101,23 +80,6 @@ body {
   height: 25px;
   background: rgba(0, 0, 0, 0.1);
 }
-/* -- Google typography ------------------------------- */
-.headline {
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 1.1;
-  color: #212121;
-  text-transform: inherit;
-  letter-spacing: inherit;
-}
-.subhead {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.1;
-  color: #212121;
-  text-transform: inherit;
-  letter-spacing: inherit;
-}
 /* -- Bootstrap-like style ------------------------------- */
 .caret {
   display: inline-block;
@@ -133,14 +95,6 @@ body {
   display: none;
 }
 /* -- Constructor style ------------------------------- */
-.constructor {
-  position: relative;
-  margin: 0;
-  padding: 0 50px;
-  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-  -o-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-}
 .sidebar{
   display: table-cell;
   vertical-align: top;
@@ -810,15 +764,32 @@ body {
   content: "\e614";
 }
 @media (max-width: 768px) {
-  .sidebar.open {
+/*  .sidebar.open {
     min-width: 240px;
     width: 240px;
-  }
+  }*/
   .sidebar .sidebar-header {
     height: 135px;
   }
   .sidebar .sidebar-image img {
     width: 44px;
     height: 44px;
+  }
+}
+
+.sidebar-toggle {
+  display: inline;
+}
+
+@media only screen and (min-width : 993px) and (max-width : 1200px) {
+  .sidebar.open {
+    min-width: 230px;
+    width: 230px;
+  }
+}
+@media only screen and (min-width : 768px) and (max-width : 992px) {
+  .sidebar.open {
+    min-width: 180px;
+    width: 180px;
   }
 }

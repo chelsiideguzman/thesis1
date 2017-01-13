@@ -2,24 +2,22 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    @include('all.head')
+    <meta charset="utf-8"> @include('all.head')
     <title>Employee Management</title>
 
 </head>
 
 <body>
     <div id="wrap">
-    @include('all.header')
+        @include('all.header')
         <section class="container-fluid">
             <section class="row">
-              @include('e-sidenav')
-                <article class="col-md-9 col-sm-9">
-
-
-                  <div class="titleh">
-                      <h3>Employee Self-Service</h3>
-                  </div>
+                @include('e-sidenav')
+                <article class="col-md-9 col-sm-9" id="rightcon">
+                    <div class="titleh clearfix">
+                        <button class="btn btn-default sidebar-toggle pull-left"><i class="fa fa-bars "></i></button>
+                        <h3>Employee Self-Service</h3>
+                    </div>
                     <form class="" method="post" action="">
                         <div class="row">
                             <div class="col-md-3 col-sm-4">
@@ -239,7 +237,6 @@
                     </form>
 
                 </article>
-
             </section>
         </section>
     </div>

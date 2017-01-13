@@ -1,4 +1,4 @@
-<article class="col-md-3 col-sm-3 nopadding" >
+<article class="col-md-3 col-sm-3 nopadding">
 
 <!-- Overlay for fixed sidebar -->
 <div class="sidebar-overlay"></div>
@@ -9,10 +9,6 @@
     <div class="sidebar-header header-cover" style="background-image: url(img/logo.png);">
         <!-- Top bar -->
         <div class="top-bar"></div>
-        <!-- Sidebar toggle button -->
-        <button type="button" class="sidebar-toggle">
-            <i class="icon-material-sidebar-arrow"></i>
-        </button>
         <!-- Sidebar brand name -->
         <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
             john.doe@gmail.com

@@ -347,8 +347,15 @@ i[class='fa fa-minus-circle'],
 .row-content i[class*='fa fa-bar-chart-o'],
 .row-content i[class*='fa fa-edit'],
 .row-content i[class*='fa fa-remove'],
-i[class="fa fa-arrow-right"] {
+i[class="fa fa-arrow-right"]{
   font-size: 20px;
+}
+
+.sidebar-toggle {
+    padding: 8px 10px !important;
+}
+.sidebar-toggle i{
+    font-size: 20px;
 }
 /**/
 

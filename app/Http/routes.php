@@ -10,6 +10,9 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('/side', function () {
+    return view('sample');
+});
 
 Route::get('/admin-payroll', function () {
     return view('a-4-payroll');
