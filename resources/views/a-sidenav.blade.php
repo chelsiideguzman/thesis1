@@ -8,7 +8,7 @@
     <!-- Sidebar header -->
     <div class="sidebar-header header-cover" style="background-image: url(img/logo.png);">
         <!-- Top bar -->
-        <div class="top-bar"></div>
+        <!--div class="top-bar"></div-->
         <!-- Sidebar brand name -->
         <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
             john.doe@gmail.com
