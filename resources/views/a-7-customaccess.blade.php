@@ -2,15 +2,14 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    @include('all.head')
+    <meta charset="utf-8"> @include('all.head')
     <title>Access Privileges</title>
 
 </head>
 
 <body>
-    @include('accessprivileges-modals')
-    @include('attendance-modals')
+
+    @include('accessprivileges-modals') @include('attendance-modals')
     <div id="wrap">
         @include('all.header')
         <section class="container-fluid">
